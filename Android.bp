@@ -1,0 +1,8 @@
+subdirs = [
+    "light",
+    "usb",
+    "init",
+]
+
+soong_namespace {
+}

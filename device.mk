@@ -18,6 +18,10 @@
 
 $(call inherit-product, vendor/lenovo/A6020/A6020-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
