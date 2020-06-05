@@ -258,6 +258,9 @@ service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
 on property:init.svc.media=restarting
     restart qcamerasvr
 
+on property:init.svc.qcamerasvr=running
+    restart media
+
 on property:init.svc.servicemanager=restarting
     restart qcamerasvr
 
