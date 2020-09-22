@@ -71,6 +71,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Encryption
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+	
+# HIDL
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
 # Keystore
 PRODUCT_PACKAGES += \
