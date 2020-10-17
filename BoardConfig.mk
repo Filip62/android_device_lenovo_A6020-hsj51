@@ -182,6 +182,9 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm8916
 TARGET_KERNEL_CONFIG := A6020_defconfig
 
+# Kernel memfd
+TARGET_HAS_MEMFD_BACKPORT := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
