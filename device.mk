@@ -267,7 +267,6 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     libqsap_sdk \
     libwpa_client \
-    wificond \
     wifilogd \
     wcnss_service \
     wpa_supplicant
