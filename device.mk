@@ -214,7 +214,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
     libqcompostprocbundle \
-    tinymix \
     audio.a2dp.default \
 
 # Camera
